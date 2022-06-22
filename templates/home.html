@@ -71,7 +71,7 @@
               {% for entry in entries %}
               <div class="card border-1 bg-dark py-3 mb-5 border-light">
                 <div class="card-body">
-                <h3 class="card-title">{{entry[0] | truncate(30, true)}}<span class="text-muted lead">
+                <h3 class="card-title">{{entry[0]}}<span class="text-muted lead">
                 <time class="entry__date" datetime="{{ entry[1] }}">• {{entry[2]}}</time>
                 </span></h3></div>
                 <p class="lead px-3 card-text">{{entry[0]}}</p>
@@ -96,7 +96,7 @@
               rows="5"
               placeholder="Enter your entry here"></textarea>
               <div class="d-grid gap-2 d-md justify-content-md-end">
-            <button type="submit" class="btn btn-success mt-3">Submit</button>
+            <button type="submit" class="btn btn-success mt-3">Submit</button></form>
             
             
           </div>
@@ -154,7 +154,7 @@
             rows="5"
             placeholder="Enter your entry here"></textarea>
             <div class="d-grid gap-2 d-md justify-content-md-end">
-          <button type="submit" class="btn btn-success mt-3">Submit</button>
+          <button type="submit" class="btn btn-success mt-3">Submit</button></form>
           
           
         </div>
