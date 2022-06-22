@@ -1,0 +1,17 @@
+.form-button {
+  position: fixed;
+  border-radius: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  right: 15px;
+  bottom: 15px;
+  outline: 1px solid #212529;
+}
+
+.text-underline-hover {
+    text-decoration: none;
+}
+
+.text-underline-hover:hover {
+    text-decoration: underline;
+}
